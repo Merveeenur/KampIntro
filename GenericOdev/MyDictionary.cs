@@ -4,41 +4,42 @@ using System.Text;
 
 namespace GenericOdev
 {
-    class MyDictionary<T, T1>
+    class MyDictionary<Tkey, Tvalue>
     {
-        T[] itemId;
-        T1[] itemName;
-        public MyDictionary()
-        {
-            itemId = new T[0];
-            itemName = new T1[0];
-        }
+        Tkey[] keys=new Tkey[0];
+        Tvalue[] values= new Tvalue[0];
+
+        //public MyDictionary()
+        //{
+        //    keys = new Tkey[0];
+        //    values = new Tvalue[0];
+        //}
         
-        public void Add(T ıd,T1 name)
+        public void Add(Tkey key,Tvalue value)
         {
-            T[] tempArray = itemId;
-            T1[] tempArray1 = itemName;
+            Tkey[] tempKey = keys;
+            Tvalue[] tempValue = values;
 
 
-            itemId = new T[itemId.Length + 1];
-            itemName = new T1[itemName.Length + 1];
+            keys = new Tkey[keys.Length + 1];
+            values = new Tvalue[values.Length + 1];
 
-            for (int i = 0; i < tempArray.Length; i++)
+            for (int i = 0; i < tempKey.Length; i++)
             {
-                itemId[i] = tempArray[i];
-                itemName[i] = tempArray1[i];
+                keys[i] = tempKey[i];
+                values[i] = tempValue[i];
             }
-            itemId[itemId.Length - 1] = ıd;
-            itemName[itemName.Length - 1] = name;
+            keys[keys.Length - 1] = key;
+            values[values.Length - 1] = value;
             
         }
         public int Count
         {
-            get { return itemId.Length; }
+            get { return keys.Length; }
         }
-        public T1[] Items
+        public Tvalue[] Items
         {
-            get { return itemName; }
+            get { return values; }
         }
     }
 }

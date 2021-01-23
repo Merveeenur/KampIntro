@@ -8,8 +8,9 @@ namespace GenericOdev
     {
         static void Main(string[] args)
         {
-           
-            MyDictionary<int,string> items = new MyDictionary<int,string>();
+
+            MyDictionary<int, string> items = new MyDictionary<int, string>();
+          
             items.Add(3, "merve");
             items.Add(4, "emir");
 
@@ -24,6 +25,7 @@ namespace GenericOdev
                 Console.WriteLine(liste);
             }
             Console.WriteLine(items.Count);
+            
 
 
         }
