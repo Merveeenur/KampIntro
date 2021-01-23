@@ -15,11 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matematik", "Matematik\Mate
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DegerVeReferansTipler", "DegerVeReferansTipler\DegerVeReferansTipler.csproj", "{C49AB7A5-AC76-4FEF-A653-372AE59E7653}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP1", "OOP1\OOP1.csproj", "{47464649-42D0-4156-9C51-1F428DB35DE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP1", "OOP1\OOP1.csproj", "{47464649-42D0-4156-9C51-1F428DB35DE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koleksiyonlar", "Koleksiyonlar\Koleksiyonlar.csproj", "{39B9E3EB-9452-40D5-B11C-AE39A2DDF0B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Koleksiyonlar", "Koleksiyonlar\Koleksiyonlar.csproj", "{39B9E3EB-9452-40D5-B11C-AE39A2DDF0B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{2DF6EE8E-C374-4308-9CC1-2E731B6811C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{2DF6EE8E-C374-4308-9CC1-2E731B6811C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericOdev", "GenericOdev\GenericOdev.csproj", "{2B681AE0-0D6C-4BF8-AF5A-BD9D57D31614}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{2DF6EE8E-C374-4308-9CC1-2E731B6811C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DF6EE8E-C374-4308-9CC1-2E731B6811C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DF6EE8E-C374-4308-9CC1-2E731B6811C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B681AE0-0D6C-4BF8-AF5A-BD9D57D31614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B681AE0-0D6C-4BF8-AF5A-BD9D57D31614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B681AE0-0D6C-4BF8-AF5A-BD9D57D31614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B681AE0-0D6C-4BF8-AF5A-BD9D57D31614}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
