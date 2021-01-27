@@ -36,7 +36,7 @@ namespace RecapDemo
                     {
                         buttons[i, j].BackColor =Color.Black;
                     }
-                    else
+                    else 
                         buttons[i, j].BackColor = Color.White;
 
                     this.Controls.Add(buttons[i, j]);
