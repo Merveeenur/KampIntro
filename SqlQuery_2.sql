@@ -45,4 +45,5 @@ select *from Products inner join Categories on Products.CategoryID =Categories.C
 
 
 
+
  --DTO Data Transformation object
