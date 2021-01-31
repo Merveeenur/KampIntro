@@ -19,7 +19,7 @@ namespace GameProject2
 
             CampaignManager campaignManager = new CampaignManager();
             CampaignManager campaignManager1 = new CampaignManager();
-            campaignManager.Add(new Campaign()
+            campaignManager.Add(new Campaign()   
             { Id = 1,
                 CampaignName = "Yaz Kampanyası",
                 CampaignType = "Öğrenci İndirimi",
@@ -43,7 +43,7 @@ namespace GameProject2
                 GamePrice = 30,
         };
 
-        SaleManager saleManager = new SaleManager();
+        SaleManager saleManager = new SaleManager(new CampaignManager());
         saleManager.Add(new Gamer{Id=1}, new Game {GameName="Flappy"}, new Campaign { CampaignName = "Kış Kampanyası" });
 
         }
