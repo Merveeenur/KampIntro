@@ -8,6 +8,6 @@ namespace GameProject2.Entities
     {
         public int Id { get; set; }
         public string CampaignName { get; set; }
-        public int CampaignType { get; set; }
+        public string CampaignType { get; set; }
     }
 }

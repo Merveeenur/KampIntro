@@ -1,8 +1,9 @@
-﻿using System;
+﻿using GameProject2.Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace GameProject
+namespace GameProject2.Abstract
 {
     interface IUserValidationService
     {

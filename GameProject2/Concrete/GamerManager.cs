@@ -1,4 +1,6 @@
-﻿using System;
+﻿using GameProject2.Abstract;
+using GameProject2.Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -29,12 +31,12 @@ namespace GameProject2.Concrete
 
         public void Delete(Gamer gamer)
         {
-            Console.WriteLine("kayıt silindi");
+            Console.WriteLine(gamer.Id +" nolu kayıt silindi");
         }
 
         public void Update(Gamer gamer)
         {
-            Console.WriteLine("kayıt güncellendi");
+            Console.WriteLine(gamer.Id + " nolu  kayıt güncellendi");
         }
     }
 }
